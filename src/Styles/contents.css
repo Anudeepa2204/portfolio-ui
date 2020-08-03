@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Assistant|Lato|Nanum+Gothic|Open+Sans|Open+Sans+Condensed:300|Quicksand|Raleway|Rokkitt');
+.title-bar-div {
+    top: 0;
+    /* min-height: 90px;
+    height: 19vh; */
+    width: 100%;
+    background: #4ABDAC;
+}
+
+.title-bar-div h1 {
+    margin: 0;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 50;
+    font-size: 50px;
+    color: white;
+    font-family: 'Assistant', sans-serif
+}
+
+.section-div {
+    min-height: 100vh;
+    height: 100vh;
+    overflow: auto;
+}
+
+.card-holder-div {
+    width: 100%;
+}
+
+.section-content-div {
+    display: flex;
+    width: 100%;
+    /* justify-content: center; */
+}
+
+#about-content {
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: justify;
+    font-size: 25px;
+    font-family: 'Assistant', sans-serif;
+}
+
+blockquote {
+    border-left: 3px solid rgb(148, 21, 4);
+    padding-left: 15px;
+    font-weight: 500;
+    font-size: 30px;
+    color: rgb(148, 21, 4);
+    font-family: 'Assistant', sans-serif
+}
