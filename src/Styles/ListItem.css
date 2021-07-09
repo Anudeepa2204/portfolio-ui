@@ -9,11 +9,11 @@
 /* var randomColor = Math.floor(Math.random()*16777215).toString(16); */
 
 #title:hover {
-    font-weight: 800;
+    font-weight: 600;
 }
 
 .list-div:hover {
-    border-right: 5px solid #F7B733;
+    border-left: 5px solid #F7B733;
 }
 
 .list-div li {
@@ -27,8 +27,4 @@
     text-align: center;
     min-width: 25px;
     color: #F7B733;
-}
-
-.list-div span {
-    padding-left: 10px;
 }

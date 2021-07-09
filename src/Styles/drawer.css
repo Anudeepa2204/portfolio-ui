@@ -1,18 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Assistant|Lato|Nanum+Gothic|Open+Sans|Open+Sans+Condensed:300|Quicksand|Raleway|Rokkitt');
-.name-container {
-    min-height: 90px;
-    width: 90%;
-    text-align: left;
-    padding-top: 10%;
-    padding-bottom: 10%;
-    padding-left: 10%;
-    font-size: x-large;
-    font-family: 'Assistant', sans-serif;
-    font-weight: 500;
-    background-color: #fafafa;
-    border-bottom: 1px solid #ddd;
-    color: #4ABDAC;
-}
 
 .left-drawer-list {
     color: #444;
@@ -30,14 +16,21 @@
     font-family: 'Assistant', sans-serif;
 }
 
+.name-container {
+    padding: 20px;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 500;
+    background-color: #fafafa;
+    border-bottom: 1px solid #ddd;
+    color: #008073;
+}
+
 .designation {
-    font-size: large;
+    text-align: right;
+    font-size: x-large;
     color: rgb(148, 21, 4);
     font-family: 'Assistant', sans-serif;
     font-weight: 500;
-}
-
-.left-drawer-window {
-    height: 100%;
-    width: 100%;
 }

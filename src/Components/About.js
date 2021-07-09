@@ -3,11 +3,11 @@ import '../Styles/contents.css';
 class About extends Component {
     render() {
         return (
-            <div className="section-div">
+            <div>
                 <div className="title-bar-div">
                     <h1>ABOUT</h1>
                 </div>
-                <div className="section-content-div">
+                <div>
                     <blockquote>
                         An inquisitive Software Engineer with experience in front-end and back-end development. Passionate about Software/System Security.
                     </blockquote>
